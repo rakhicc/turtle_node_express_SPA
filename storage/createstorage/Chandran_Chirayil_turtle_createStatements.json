@@ -1,0 +1,29 @@
+{
+    "host":"localhost",
+    "port":3306,
+    "admin":"root",
+    "adminpassword":"",
+    "user":"lucas",
+    "userpassword":"3k2nH5ux",
+    "dropuser":true,
+    "debug":true,
+    "database":"turtledb",
+    "tables":[
+        {
+            "tableName":"turtle",
+            "columns":[
+                "number integer not null primary key",
+                "name varchar(13) not null",
+                "age integer not null",
+                "weightKg integer not null",
+                "speed varchar(23) not null"
+                
+            ],
+            "data":[
+                [1,"Pokey",5,10,"35km/hr"],
+                [2, "Mack",6,12,"40km/hr"]
+            ]
+        }
+    ]
+
+}

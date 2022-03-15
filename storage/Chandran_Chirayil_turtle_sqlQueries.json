@@ -1,0 +1,18 @@
+{
+    "getAll":["select number,name,age,weightKg,speed from turtle"
+    
+],
+"get":["select number,name,age,weightKg,speed from turtle",
+    "where number=?"
+],
+"insert":[
+    "insert into turtle (number,name,age,weightKg,speed)",
+    "values(?,?,?,?,?)"
+],
+"update":[
+    "update turtle set name=?, age=?, weightKg=?, speed=?",
+    "where number=?"
+],
+"remove":["delete from turtle where number=?"],
+"primaryKey":"number"
+}

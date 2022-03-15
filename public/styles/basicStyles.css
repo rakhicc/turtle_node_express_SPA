@@ -1,0 +1,44 @@
+main {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+table,
+th,
+td {
+  border: solid black 1px;
+  padding: 0.5rem;
+}
+thead {
+  background-color: khaki;
+}
+button {
+  font-family: sans-serif;
+  width: 13em;
+  height: 2em;
+  margin: 4px;
+}
+.fields div {
+  display: grid;
+  font-weight: bold;
+}
+.info {
+  border: solid green 2px;
+  padding: 1em;
+}
+.error {
+  border: dashed red 2px;
+  padding: 2em;
+}
+#update {
+  display: none;
+}
+#computerid {
+  background-color: darkgray;
+}
